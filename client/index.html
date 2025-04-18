@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Crisis Response Helper</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Crisis Response Helper</h1>
+    <p>Get instant survival advice in emergencies.</p>
+    <form id="crisisForm">
+      <label for="type">Crisis Type:</label>
+      <select id="type">
+        <option value="flood">Flood</option>
+        <option value="earthquake">Earthquake</option>
+        <option value="medical">Medical Emergency</option>
+      </select>
+      <button type="submit">Get Help</button>
+    </form>
+    <div id="response"></div>
+    <div id="nearby"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
